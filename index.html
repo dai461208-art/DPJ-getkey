@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090914">
+  <title>DPJ GETKEY</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main class="shell">
+    <nav class="nav">
+      <a class="brand" href="/"><span class="brand-mark">D</span><span>DPJ <b>GETKEY</b></span></a>
+      <span class="status"><i></i> KEY SYSTEM</span>
+    </nav>
+
+    <section class="hero">
+      <div class="eyebrow">DAI PROJECT · AUTOMATIC KEY SYSTEM</div>
+      <h1>GET YOUR <span>KEY</span></h1>
+      <p class="sub">Hoàn thành bước xác minh để nhận mã key của bạn.</p>
+
+      <div class="panel">
+        <div class="panel-top">
+          <div>
+            <div class="muted small">HỆ THỐNG CẤP KEY</div>
+            <h2>DPJ Access</h2>
+          </div>
+          <div class="tag">1 KEY = 1 LƯỢT</div>
+        </div>
+
+        <div id="state" class="state">
+          <div class="orb"><span>🔑</span></div>
+          <h3>Chưa có phiên nhận key</h3>
+          <p>Hãy mở website bằng đường dẫn được bot Telegram gửi cho bạn sau khi dùng lệnh <code>/getkey</code>.</p>
+        </div>
+
+        <div id="key-area" class="key-area" hidden>
+          <div class="muted small">KEY CỦA BẠN</div>
+          <div class="key-line"><strong id="key-value">DPJ_XXXXXXXX</strong><button id="copy" type="button">SAO CHÉP</button></div>
+          <p class="hint">Mỗi key chỉ dùng được một lần. Hãy nhập key vào bot Telegram để nhận 1 lượt.</p>
+        </div>
+        <div id="notice" class="notice" role="status">Đang kiểm tra phiên...</div>
+      </div>
+      <div class="foot">© 2026 DAI PROJECT <span>·</span> DPJ GETKEY</div>
+    </section>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>
